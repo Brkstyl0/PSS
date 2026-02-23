@@ -1,0 +1,39 @@
+prefix: '<gray>[<blue>PSS</blue>]</gray> '
+no-permission: '<red>Bunu yapmak için yetkiniz yok!</red>'
+reload-success: '<green>Yapılandırma ve diller başarıyla yenilendi.</green>'
+maintenance-enabled: '<green>Bakım modu aktif edildi. Sadece yetkili oyuncular girebilir.</green>'
+maintenance-disabled: '<red>Bakım modu kapatıldı. Artık herkes girebilir.</red>'
+already-enabled: '<red>Bakım modu zaten aktif!</red>'
+already-disabled: '<red>Bakım modu zaten kapalı!</red>'
+help-usage-title: '<gray>Kullanım:'
+help-reload: ' <white>/pss reload</white> <gray>- Yapılandırmayı yeniler</gray>'
+help-maintenance: ' <white>/pss maintenance</white> <gray>- Bakım modunu açar/kapatır</gray>'
+help-addbotname: ' <white>/pss addbotname <isim></white> <gray>- İsmi kara listeye ekler</gray>'
+help-removebotname: ' <white>/pss removebotname <isim></white> <gray>- İsmi kara listeden çıkarır</gray>'
+help-report: ' <white>/report <oyuncu></white> <gray>- Şüpheli bir oyuncuyu report et</gray>'
+gui-title: "<dark_gray>PSS Yönetim Paneli"
+gui-maintenance-on: "<green>Bakım Modu: AÇIK"
+gui-maintenance-off: "<red>Bakım Modu: KAPALI"
+gui-maintenance-lore: "<gray>Tıkla Ve Bakım Modunu Değiştir"
+gui-chat-on: "<green>Sohbet: AÇIK"
+gui-chat-off: "<red>Sohbet: KAPALI"
+gui-chat-lore: "<gray>Tıkla ve sohbeti aç/kapat"
+chat-enabled-broadcast: "<green>Sohbet açıldı."
+chat-disabled-broadcast: "<red>Sohbet kapatıldı."
+chat-disabled-message: "<red>Sohbet şu anda kapalı.</red>"
+gui-freeze-on: "<green>Dondurma: AÇIK"
+gui-freeze-off: "<red>Dondurma: KAPALI"
+gui-freeze-lore: "<gray>Tıkla ve dondurmayı aç/kapat"
+freeze-enabled-broadcast: "<red>Tüm oyuncular donduruldu."
+freeze-disabled-broadcast: "<green>Dondurma kapatıldı."
+freeze-enabled-message: "<red>Donduruldun.</red>"
+gui-reports-button: "<gold>Reportlar"
+gui-reports-button-lore: "<gray>Oyuncu reportlarını görüntüle"
+gui-reports-title: "<dark_gray>Reportlar"
+gui-back: "<yellow>Geri"
+gui-reports-lore-reporters: "<gray>Raporlayan: <white><count></white>"
+gui-reports-lore-last: "<gray>Son rapor: <white><time></white>"
+report-usage: "<red>Kullanım: /report <oyuncu>"
+report-self: "<red>Kendini report edemezsin."
+report-player-not-found: "<red>Oyuncu bulunamadı."
+report-success: "<green><player> report edildi."

@@ -1,0 +1,22 @@
+# PSS Configuration
+language: en
+
+# Maintenance / Whitelist Mode
+maintenance:
+  enabled: false
+  # Supports MiniMessage format (e.g. <red>, <bold>, <newline>)
+  kick-message: "<red>The server is currently under maintenance.</red><newline><yellow>Please try again later."
+
+chat:
+  enabled: true
+
+freeze:
+  enabled: false
+
+# Bot Protection - Name Blacklist
+# NOTE: Any player whose name contains a banned word will be barred from joining the server, regardless of where the word appears in their name. Choosing your name carefully is recommended.
+bot-protection:
+  blacklisted-names:
+    - "FreeBot"
+    - "MCStorm"
+  kick-message: "<red>Your username contains a blacklisted word!</red>"

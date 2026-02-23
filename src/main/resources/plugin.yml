@@ -1,0 +1,37 @@
+name: PSS
+version: ${version}
+main: me.brkstyl.pss.PluginMain
+api-version: '1.19'
+author: Burak
+description: Player and Server Security - A professional security solution.
+
+permissions:
+  pss.admin:
+    description: Grants full access to PSS commands.
+    default: op
+  pss.bypasschat:
+    description: Allows chatting even when chat is disabled via PSS.
+    default: op
+  pss.bypassfreeze:
+    description: Allows moving even when freeze is enabled via PSS.
+    default: op
+  pss.maintenance.bypass:
+    description: Allows joining the server during maintenance mode.
+    default: op
+  pss.maintenance:
+    description: Allows managing maintenance mode and toggle in GUI.
+    default: op
+  pss.moderation:
+    description: Allows accessing report GUI and spectating/banning players.
+    default: op
+  pss.report:
+    description: Allows players to use /report.
+    default: true
+
+commands:
+  pss:
+    description: Main command for PSS.
+    usage: /pss
+  report:
+    description: Report a player.
+    usage: /report <player>

@@ -1,0 +1,39 @@
+prefix: '<gray>[<blue>PSS</blue>]</gray> '
+no-permission: '<red>You do not have permission to do this!</red>'
+reload-success: '<green>Configuration and languages reloaded successfully.</green>'
+maintenance-enabled: '<green>Maintenance mode has been enabled. Only players with permission can join.</green>'
+maintenance-disabled: '<red>Maintenance mode has been disabled. Everyone can join.</red>'
+already-enabled: '<red>Maintenance mode is already enabled!</red>'
+already-disabled: '<red>Maintenance mode is already disabled!</red>'
+help-usage-title: '<gray>Usage:'
+help-reload: ' <white>/pss reload</white> <gray>- Reload configurations</gray>'
+help-maintenance: ' <white>/pss maintenance</white> <gray>- Toggle maintenance mode</gray>'
+help-addbotname: ' <white>/pss addbotname <name></white> <gray>- Add a specific name to the blacklist</gray>'
+help-removebotname: ' <white>/pss removebotname <name></white> <gray>- Remove a name from the blacklist</gray>'
+help-report: ' <white>/report <player></white> <gray>- Report a suspicious player</gray>'
+gui-title: "<dark_gray>PSS Admin Panel"
+gui-maintenance-on: "<green>Maintenance Mode: ON"
+gui-maintenance-off: "<red>Maintenance Mode: OFF"
+gui-maintenance-lore: "<gray>Click to toggle maintenance status."
+gui-chat-on: "<green>Chat: ON"
+gui-chat-off: "<red>Chat: OFF"
+gui-chat-lore: "<gray>Click to toggle chat status."
+chat-enabled-broadcast: "<green>Chat has been enabled."
+chat-disabled-broadcast: "<red>Chat has been disabled."
+chat-disabled-message: "<red>Chat is currently disabled.</red>"
+gui-freeze-on: "<green>Freeze: ON"
+gui-freeze-off: "<red>Freeze: OFF"
+gui-freeze-lore: "<gray>Click to toggle freeze."
+freeze-enabled-broadcast: "<red>All players have been frozen."
+freeze-disabled-broadcast: "<green>Freeze has been disabled."
+freeze-enabled-message: "<red>You are frozen.</red>"
+gui-reports-button: "<gold>Reports"
+gui-reports-button-lore: "<gray>View player reports"
+gui-reports-title: "<dark_gray>Reports"
+gui-back: "<yellow>Back"
+gui-reports-lore-reporters: "<gray>Reported by: <white><count></white>"
+gui-reports-lore-last: "<gray>Last report: <white><time></white>"
+report-usage: "<red>Usage: /report <player>"
+report-self: "<red>You cannot report yourself."
+report-player-not-found: "<red>Player not found."
+report-success: "<green>Reported <player>."
