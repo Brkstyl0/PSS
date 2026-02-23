@@ -2,7 +2,7 @@ package me.brkstyl.pss.commands;
 
 import me.brkstyl.pss.PluginMain;
 import me.brkstyl.pss.utils.ColorUtils;
-import net.kyori.adventure.text.Component; // Import eklendi
+import net.kyori.adventure.text.Component; 
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
@@ -165,4 +165,5 @@ public class PSSCommand implements CommandExecutor, TabCompleter {
                 .filter(s -> s.toLowerCase().startsWith(args[args.length - 1].toLowerCase()))
                 .collect(Collectors.toList());
     }
+
 }
